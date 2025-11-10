@@ -24,13 +24,17 @@ Exact topics and schedule subject to modification with fair notice.
 {% assign prev_date = lecture_date %}
 
 <tr class="{{ event_type }}">
-    <th scope="row">{{ lecture.date }}</th>
+    <th scope="row">
+        {% assign week_and_title = lecture.title | split: ': ' %}
+        {{ week_and_title[0] }}<br/>
+        <span style="font-size:12px; font-weight:normal;">{{ lecture.date }}</span>
+    </th>
     {% if lecture.title contains 'lectures' %}
     {% assign skip_classes = skip_classes | plus: 1 %}
-    <td colspan="4">{{ lecture.title }}</td>
+    <td colspan="4">{{ week_and_title[1] }}</td>
     {% else %}
     <td>
-        {{ lecture.title }} <br/>
+        {{ week_and_title[1] }} <br/>
             <ul>
                {% for topic in lecture.topics %}
                   <li style="font-size:12px;">
@@ -40,6 +44,7 @@ Exact topics and schedule subject to modification with fair notice.
         </ul>
     </td>
     <td>
+        {% if lecture.readings and lecture.readings.size > 0 %}
         <ul>
                {% for reading in lecture.readings %}
                   <li style="font-size:12px;">
@@ -47,6 +52,9 @@ Exact topics and schedule subject to modification with fair notice.
                   </li>
                {% endfor %}
         </ul>
+        {% else %}
+        <span style="color:#999; font-size:12px;">Will be posted</span>
+        {% endif %}
     </td>
     {% endif %}
 </tr>
