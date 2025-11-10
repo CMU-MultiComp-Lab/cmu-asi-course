@@ -4,7 +4,7 @@ permalink: /spring2026/schedule/
 title: Schedule
 ---
 
-** Exact topics and schedule subject to change, based on student interests and course discussions. **
+Exact topics and schedule subject to modification with fair notice.
 
 {% assign current_module = 0 %}
 {% assign skip_classes = 0 %}
