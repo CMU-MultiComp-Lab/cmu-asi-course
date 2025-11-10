@@ -4,9 +4,7 @@ permalink: /spring2026/schedule/
 title: Schedule
 ---
 
-With the exception of the first two weeks of content, the course will have the following format: Mondays will focus on course projects, with project teams meeting instructors to discuss research, and Wednesdays will be the discussion day for weekly readings.
-
-Exact topics and schedule subject to modification with fair notice.
+With the exception of the first two weeks of content, the course will have the following format: Mondays will focus on course projects, with project teams meeting instructors to discuss research, and Wednesdays will be the discussion day for weekly readings. The topics and schedule below are subject to modification with fair notice.
 
 {% assign current_module = 0 %}
 {% assign skip_classes = 0 %}
