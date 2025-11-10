@@ -4,6 +4,8 @@ permalink: /spring2026/schedule/
 title: Schedule
 ---
 
+With the exception of the first two weeks of content, the course will have the following format: Mondays will focus on course projects, with project teams meeting instructors to discuss research, and Wednesdays will be the discussion day for weekly readings.
+
 Exact topics and schedule subject to modification with fair notice.
 
 {% assign current_module = 0 %}
@@ -24,7 +26,7 @@ Exact topics and schedule subject to modification with fair notice.
 {% assign prev_date = lecture_date %}
 
 <tr class="{{ event_type }}">
-    <th scope="row">
+    <th scope="row" style="white-space:nowrap;">
         {% assign week_and_title = lecture.title | split: ': ' %}
         {{ week_and_title[0] }}<br/>
         <span style="font-size:12px; font-weight:normal;">{{ lecture.date }}</span>
@@ -44,12 +46,20 @@ Exact topics and schedule subject to modification with fair notice.
         </ul>
     </td>
     <td>
-        {% if lecture.readings and lecture.readings.size > 0 %}
+        {% assign has_readings = false %}
+        {% for reading in lecture.readings %}
+            {% if reading and reading != "" %}
+                {% assign has_readings = true %}
+            {% endif %}
+        {% endfor %}
+        {% if has_readings %}
         <ul>
                {% for reading in lecture.readings %}
+                  {% if reading and reading != "" %}
                   <li style="font-size:12px;">
                      {{reading}}
                   </li>
+                  {% endif %}
                {% endfor %}
         </ul>
         {% else %}
