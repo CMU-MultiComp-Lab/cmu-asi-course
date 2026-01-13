@@ -6,6 +6,8 @@ title: Schedule
 
 With the exception of the first two weeks of content, the course will have the following format: Mondays will focus on course projects, with project teams meeting instructors to discuss research, and Wednesdays will be the discussion day for weekly readings. The topics and schedule below are subject to modification with fair notice.
 
+All readings can be accessed online or through Canvas.
+
 {% assign current_module = 0 %}
 {% assign skip_classes = 0 %}
 {% assign prev_date = 0 %}
