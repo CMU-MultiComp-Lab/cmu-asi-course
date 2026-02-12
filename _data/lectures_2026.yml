@@ -55,12 +55,29 @@
     Week 5: <strong> Social Cognition and Social Interactions</strong>
   topics:
   readings:
+  - '(Required) <a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.01007/full">Prospects for direct social perception: a multi-theoretical integration to further the science of social cognition</a>'
+  - '(Required) <a href="https://pubmed.ncbi.nlm.nih.gov/27687121/">The Structure of Social Cognition: In(ter)dependence of Sociocognitive Processes</a>'
+  - (Optional) <a href="https://arxiv.org/abs/2110.04054">Core Elements of Social Interaction for Constructive Human-Robot Interaction</a>
+  - '(Optional) <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2588649/">The Social Brain: Neural Basis of Social Knowledge</a>'
+  - (Optional) <a href="https://neurofeedback.io/wp-content/uploads/2023/10/SBaronCohen2001Theory_of_Mind_in_normal_development_and_autism.pdf">Theory of Mind in Normal Development and Autism</a>
+  - (Optional) <a href="https://www.sciencedirect.com/science/article/abs/pii/S1364661314002502">Deconstructing and Reconstructing Theory of Mind</a>
+  - (Optional) <a href="https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(10)00146-4">Can Social Interaction Constitute Social Cognition?</a>
+  - (Optional) <a href="https://www.sciencedirect.com/science/article/abs/pii/S1389041716300493">Enabling Robotic Social Intelligence by Engineering Human Social-Cognitive Mechanisms</a>
+  - (Optional) <a href="https://research.clps.brown.edu/SocCogSci/Publications/Pubs/Malle_(2008)_Social_Cognition.pdf">The Fundamental Tools, and Possibly Universals, of Human Social Cognition"</a>
+  - (Optional) <a href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2022.750763/full">Supporting Artificial Social Intelligence With Theory of Mind</a>
+  
 
 - date: 2/16 & 2/18
   title: >
     Week 6: <strong>Evaluation and Measurement of Social Constructs</strong>
   topics:
   readings:
+  - (Required) <a href="https://dl.acm.org/doi/abs/10.1145/3439720">A Taxonomy of Social Errors in Human-Robot Interaction</a>
+  - '(Required) <a href="https://dl.acm.org/doi/abs/10.1145/3514197.3549612">The Artificial-Social-Agent Questionnaire: Establishing the Long and Short Questionnaire Versions</a>
+  - (Optional) <a href="https://dl.acm.org/doi/abs/10.1145/3415139">Measuring the Perceived Social Intelligence of Robots</a>
+  - '(Optional) <a href="https://arxiv.org/abs/1904.09728">Social IQa: Commonsense Reasoning about Social Interactions</a>'
+  - '(Optional) Social Human Robot Embodied Conversation (SHREC) Dataset: Benchmarking Foundational Models’ Social Reasoning
+  - '(Optional) <a href="https://dl.acm.org/doi/10.1145/3383652.3423873">The 19 Unifying Questionnaire Constructs of Artificial Social Agents: An IVA Community Analysis</a>'
 
 - date: 2/23 & 2/25
   title: >
