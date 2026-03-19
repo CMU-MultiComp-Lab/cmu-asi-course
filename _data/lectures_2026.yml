@@ -104,10 +104,11 @@
   readings:
   - (Required) <a href="https://arxiv.org/abs/2502.11881">Hypothesis-Driven Theory-of-Mind Reasoning for Large Language Models</a>
   - (Required) <a href="https://arxiv.org/abs/2503.19851">Towards Online Multi-Modal Social Interaction Understanding</a>
+  - '(Optional) <a href="https://arxiv.org/abs/2406.11161">Emotion-LLaMA: Multimodal Emotion Recognition and Reasoning with Instruction</a>'
+  technical_foundations:
   - '(Optional) <a href="https://arxiv.org/abs/2406.16838">From Decoding to Meta-Generation: Inference-time Algorithms for Large Language Models</a>'
   - (Optional) <a href="https://arxiv.org/abs/2405.17247">An Introduction to Vision-Language Modeling</a>
   - '(Optional) <a href="https://dl.acm.org/doi/abs/10.1145/3560815">Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing</a>'
-  - '(Optional) <a href="https://arxiv.org/abs/2406.11161">Emotion-LLaMA: Multimodal Emotion Recognition and Reasoning with Instruction</a>'
   - '(Optional) <a href="https://aclanthology.org/2020.emnlp-main.703/">Experience Grounds Language</a>'
   - '(Optional) <a href="https://ieeexplore.ieee.org/abstract/document/5989788?casa_token=NkTx5EFPG9YAAAAA:qPu9V1r4QlYudmu_lrJPIBTj9y5oEO_uMUZS5SvMtWl-UWW8hqdrNCjEClGbvTqsLeruXByXbQ">Bridging the Gap between Social Animal and Unsocial Machine: A Survey of Social Signal Processing</a>'
   - (Optional) <a href="https://arxiv.org/abs/2511.21631">Qwen3VL Technical Report</a>
@@ -121,10 +122,11 @@
   - (Required) <a href="https://arxiv.org/abs/2504.03206">Enhancing Personalized Multi-Turn Dialogue with Curiosity Reward</a>
   - '(Required) <a href="https://aclanthology.org/2025.acl-long.607/">SDPO: Segment-Level Direct Preference Optimization for Social Agents</a>'
   - '(Required) <a href="https://arxiv.org/abs/2602.03109">One Model, All Roles: Multi-Turn, Multi-Agent Self-Play Reinforcement Learning for Conversational Social Intelligence</a>'
-  - (Optional) <a href="https://arxiv.org/abs/2203.02155">Training Language Models to Follow Instructions with Human Feedback</a>
-  - '(Optional) <a href="https://arxiv.org/abs/2305.18290">Direct Preference Optimization: Your Language Model is Secretly a Reward Model</a>'
   - '(Optional) <a href="https://aclanthology.org/2024.acl-long.698.pdf">Sotopia-Pi: Interactive Learning of Socially-Intelligent Language Agents</a>'
   - '(Optional) <a href="https://openreview.net/forum?id=GG7YQnsdhp">Adaptive Social Learning via Mode Policy Optimization for Language Agents</a>'
+  technical_foundations:
+  - (Optional) <a href="https://arxiv.org/abs/2203.02155">Training Language Models to Follow Instructions with Human Feedback</a>
+  - '(Optional) <a href="https://arxiv.org/abs/2305.18290">Direct Preference Optimization: Your Language Model is Secretly a Reward Model</a>'
 
 
 - date: 3/23 & 3/25

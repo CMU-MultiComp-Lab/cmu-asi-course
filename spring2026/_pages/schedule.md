@@ -54,8 +54,6 @@ All readings can be accessed online or through Canvas.
             {% endif %}
         {% endfor %}
         {% if has_readings %}
-        <br/>
-        <strong style="font-size:13px;">Readings:</strong>
         <ul>
                {% for reading in lecture.readings %}
                   {% if reading and reading != "" %}
@@ -68,6 +66,18 @@ All readings can be accessed online or through Canvas.
         {% else %}
         <br/>
         <span style="color:#999; font-size:12px;">Readings will be posted</span>
+        {% endif %}
+        {% if lecture.technical_foundations.size > 0 %}
+        <strong style="font-size:13px;">Technical Foundations:</strong>
+        <ul>
+               {% for tf in lecture.technical_foundations %}
+                  {% if tf and tf != "" %}
+                  <li style="font-size:12px;">
+                     {{tf}}
+                  </li>
+                  {% endif %}
+               {% endfor %}
+        </ul>
         {% endif %}
     </td>
     {% endif %}
