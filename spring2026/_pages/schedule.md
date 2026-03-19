@@ -33,19 +33,20 @@ All readings can be accessed online or through Canvas.
     </th>
     {% if lecture.title contains 'lectures' %}
     {% assign skip_classes = skip_classes | plus: 1 %}
-    <td colspan="4">{{ week_and_title[1] }}</td>
+    <td colspan="2">{{ week_and_title[1] }}</td>
     {% else %}
     <td>
-        {{ week_and_title[1] }} <br/>
-            <ul>
+        {{ week_and_title[1] }}
+        {% if lecture.topics.size > 0 %}
+        <br/>
+        <ul>
                {% for topic in lecture.topics %}
                   <li style="font-size:12px;">
                      {{topic}}
                   </li>
                {% endfor %}
         </ul>
-    </td>
-    <td>
+        {% endif %}
         {% assign has_readings = false %}
         {% for reading in lecture.readings %}
             {% if reading and reading != "" %}
@@ -53,6 +54,8 @@ All readings can be accessed online or through Canvas.
             {% endif %}
         {% endfor %}
         {% if has_readings %}
+        <br/>
+        <strong style="font-size:13px;">Readings:</strong>
         <ul>
                {% for reading in lecture.readings %}
                   {% if reading and reading != "" %}
@@ -63,7 +66,8 @@ All readings can be accessed online or through Canvas.
                {% endfor %}
         </ul>
         {% else %}
-        <span style="color:#999; font-size:12px;">Will be posted</span>
+        <br/>
+        <span style="color:#999; font-size:12px;">Readings will be posted</span>
         {% endif %}
     </td>
     {% endif %}
@@ -72,7 +76,7 @@ All readings can be accessed online or through Canvas.
 {% assign current_module = current_module | plus: 1 %}
 {% assign module = item %}
 <tr class="info">
-    <td colspan="5" align="center"><strong>{{ module.title }}</strong></td>
+    <td colspan="2" align="center"><strong>{{ module.title }}</strong></td>
 </tr>
 {% endif %}
 {% endfor %}
