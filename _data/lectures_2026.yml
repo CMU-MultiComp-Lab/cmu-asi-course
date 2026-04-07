@@ -145,8 +145,8 @@
   - '(Optional) <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Chhatre_Emotional_Speech-driven_3D_Body_Animation_via_Disentangled_Latent_Diffusion_CVPR_2024_paper.pdf">Emotional Speech-driven 3D Body Animation via Disentangled Latent Diffusion</a>'
 
   technical_foundations:
-  - '(Optional) <a href="https://huggingface.co/blog/annotated-diffusion">The Annotated Diffusion Model</a>'
-  - '(Optional) <a href="https://mlg.eng.cam.ac.uk/blog/2024/01/20/flow-matching.html">An Introduction to Flow Matching</a>'
+  - '(Optional) <a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Models</a> and <a href="https://huggingface.co/blog/annotated-diffusion">The Annotated Diffusion Model</a>'
+  - '(Optional) <a href="https://arxiv.org/abs/2210.02747">Flow Matching for Generative Modeling</a> and <a href="https://mlg.eng.cam.ac.uk/blog/2024/01/20/flow-matching.html">An Introduction to Flow Matching</a>'
   - '(Optional) <a href="https://www.xunhuang.me/blogs/world_model.html">Towards Video World Models</a>'
   - '(Optional) <a href="https://www.1x.tech/discover/world-model-self-learning">1X World Model: From Video to Action</a>'
   - '(Optional) <a href="https://arxiv.org/abs/2301.05339">A Comprehensive Review of Data-Driven Co-Speech Gesture Generation</a>'
@@ -164,8 +164,7 @@
   - (Required) <a href="https://websites.umich.edu/~gonzo/papers/gonzalez-griffin-2023-dyad.pdf">Dyadic Data Analysis</a>
   - (Required) <a href="https://www.joophox.net/mlbook2/Chapter2.pdf">The Basic Two-Level Regression Model</a>
   - (Optional) <a href="https://dl.acm.org/doi/abs/10.1145/3501714.3501755">Causality for Machine Learning</a>
-  - '(Optional) <a href="https://www.learn-mlms.com">Introduction to Multilevel Modelling (learn-mlms)</a>'
-  - '(Optional) <a href="https://paulrjohnson.net/blog/2022-11-01-multilevel-model-r-cheatsheet/">A Cheatsheet for Building Multilevel Models in R</a>'
+  - '(Optional) <a href="https://www.learn-mlms.com">Introduction to Multilevel Modelling</a>'
   - '(Optional) <a href="https://quantscience.rbind.io/posts/2021-10-23-actor-partner-interdependence-model-with-multivariate-multilevel-analysis/">Actor-Partner Interdependence Model with Multilevel Analysis</a>'
 
 - date: 4/6 & 4/8
@@ -184,7 +183,8 @@
   technical_foundations:
   - '(Optional) <a href="https://developer.nvidia.com/blog/reimagining-llm-memory-using-context-as-training-data-unlocks-models-that-learn-at-test-time/">Reimagining LLM Memory: Using Context as Training Data Unlocks Models That Learn at Test-Time</a>'
   - '(Optional) <a href="https://lilianweng.github.io/posts/2023-06-23-agent/">LLM Powered Autonomous Agents</a>'
-  - (Optional) <a href="https://smithamilli.com/blog/causal-ladder/">Pearl's Causal Ladder</a>
+  - '(Optional <a href="https://archive.illc.uva.nl/cil/uploaded_files/inlineitem/Pearl_2009_Causality.pdf">Causality: Models, Reasoning, and Inference</a>'
+  - (Optional) <a href="https://web.cs.ucla.edu/~kaoru/3-layer-causal-hierarchy.pdf">The Three Layer Causal Hierarchy</a> and <a href="https://smithamilli.com/blog/causal-ladder/">Pearl's Causal Ladder</a>
 
 - date: 4/13 & 4/15
   title: >
